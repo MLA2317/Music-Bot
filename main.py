@@ -2726,6 +2726,5 @@ async def uleft1(call: CallbackQuery):
     await call.message.delete()
     await call.message.answer_photo(img, txt, reply_markup=Uzbek)
 
-
 if __name__ == '__main__':
     executor.start_polling(dp)
